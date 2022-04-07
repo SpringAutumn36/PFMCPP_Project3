@@ -53,51 +53,51 @@ Sub Object 1: Steering Wheel
     Name 4 things you'll find on the:    Steering Wheel
         1) paddle shifters
         2) 'cruise control' controls
-        3) 
-        4) 
+        3) 'volume contorl' controls
+        4) phone button
     Name 2 things you can do with the:   Steering Wheel
         1) adjust cruise control settings.
-        2)
+        2) adjust volume levels
         
 Sub Object 2: Instrument Cluster
     Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
+        1) speedometer display
+        2) turn signal indicators
+        3) Tachometer display
+        4) car gear display 
     Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+        1) monitor the speed
+        2) monitor the rotation speed
+        3) know the gear at the moment 
     
 Sub Object 3: Environment Controls
     Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
+        1) air conditioner button
+        2) fan control button
+        3) 'temperature contorl' controls
     Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+        1) turn on the air conditioner
+        2) adjust the fan amplitude
+        3) change the air conditioner temperature
 
 Sub Object 4: Infotainment System
     Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
+        1) radio button
+        2) disc button
+        3) navigation button
     Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+        1) turn on the radio
+        2) open a dick drive
+        3) turn on the navigation system
 
 Sub Object 5: Seat 
     Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
+        1) window control button
+        2) seat adjustment controls 
+        3) seat memory button
     Name 2 things you can do with the:   Seat
-        1)
-        2)
+        1) shift the window
+        2) adjust the seat position
 */
 
 /*
@@ -153,62 +153,6 @@ Part 1b Assignment: 1 Step
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 */
-
-/*
-Thing 1)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 2)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 3)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 4)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
  /*
 Part 1c - Lesson
@@ -278,20 +222,6 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 */
-
-/*
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
 /*
 Part 1d - Lesson
@@ -385,76 +315,6 @@ Step 3 is written below UDTs 5 - 9
 */
 
 /*
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
 ===================
 Part 1d assignment: Step 3
 ===================
@@ -472,8 +332,145 @@ After you have MOVED your 10 UDTs, send me a DM with your pull request link.
 I will review the pseudo-code that you have written.
 */
 
+/*
+Thing 1) Concert
+5 properties:
+    1) number of musicians (int)
+    2) the amount of ticket income (float)
+    3) number of audience (int)
+    4) the number of vendors around (int)
+    5) number of bands attend (int)
+3 things it can do:
+    1) perform many songs 
+    2) attract different audience
+    3) charge audience
+ */
 
+/* Basketball Game
+Thing 2)
+5 properties:
+    1) number of players (int)
+    2) number of coaching staff (int)
+    3) price of the ticket (double)
+    4) number of referee (int)
+    5) number of monitors (int)
+3 things it can do:
+    1) show different angle to audience
+    2) host the game
+    3) make profit
+ */
 
+/*
+Thing 3) Product Manufacturing
+5 properties:
+    1) number of production line (int)
+    2) number of operators (int)
+    3) number of engineers (int)
+    4) the amount of products made per week (int)
+    5) number of devices (int)
+3 things it can do:
+    1) assemble the products
+    2) solve engineering problems
+    3) increase the production rate
+ */
+
+/*
+Thing 4) Guitar Tone Setting
+5 properties:
+    1) the value of amp gain (float)
+    2) the number of guitar pedals (int)
+    3) the drive level of a overdrive pedal (float)
+    4) the number of reverb and delay pedals (int)
+    5) the number of different types of guitars (int)
+3 things it can do:
+    1) level up the guitar sound
+    2) make different sound effect
+    3) create more playing style
+ */
+
+/*
+Thing 5)
+5 properties: transmitter
+    1) hieght in m (int)
+    2) width in m (int)
+    3) distance in m (double)
+    4) amount of power consumed (float)
+    5) bandwidth (float)
+3 things it can do:
+    1) affect the data rate
+    2) increase battery usage
+    3) contain more frequency range
+ */
+
+/*
+Thing 6)
+5 properties: channel
+    1) number of obstacles (int)
+    2) number of unknown channels (int)
+    3) number of known channels (int)
+    4) distance in m (double)
+    5) density of medium (float)
+3 things it can do:
+    1) reflect the signal
+    2) deflect the signal
+    3) change the transmit speed
+ */
+
+/*
+Thing 7)
+5 properties: converter
+    1) number of analog to digital converter (int)
+    2) number of digital to analog converter (int)
+    3) amount of power consumed (double)
+    4) number of circuits (int)
+    5) the amount of the cost (double)
+3 things it can do:
+    1) convert analog signal to digital signal
+    2) convert digital signal to analog signal
+    3) construct the converter structure
+ */
+
+/*
+Thing 8)
+5 properties: modulation
+    1) number of signal pilots (int)
+    2) number of alphabets (int)
+    3) bit rate (float)
+    4) number of filters (int)
+    5) the amount of access bandwidth (double)
+3 things it can do:
+    1) calculate the spectral efficiency
+    2) estimate the unknown channels
+    3) avoid signal aliasing
+ */
+
+/*
+Thing 9)
+5 properties: receiver
+    1) height in m (double)
+    2) width in m (double)
+    3) distance in m (double)
+    4) number of detections
+    5) number of equalizers
+3 things it can do:
+    1) estimate the unknown channels
+    2) calculate the bit error rate
+    3) encode the signal
+ */
+
+/*
+Thing 10)
+5 properties: Communication System
+    1) transmitters 
+    2) channels
+    3) converter
+    4) modulation
+    5) receiver
+3 things it can do:
+    1) transmit the signals
+    2) modulate the signals
+    3) receive the signals
+ */
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
