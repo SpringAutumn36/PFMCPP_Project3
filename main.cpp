@@ -405,15 +405,15 @@ Thing 5)
 /*
 Thing 6)
 5 properties: channel
-    1) number of obstacles (int)
-    2) number of unknown channels (int)
-    3) number of known channels (int)
-    4) distance in m (double)
-    5) density of medium (float)
+    1) bit rate (float)
+    2) number of ports (int)
+    3) block size (double)
+    4) number of packets dropped (int)
+    5) channel IP address (float)
 3 things it can do:
-    1) reflect the signal
-    2) deflect the signal
-    3) change the transmit speed
+    1) affect the transmitted signal
+    2) affect the data rate
+    3) decrease interference
  */
 
 /*
